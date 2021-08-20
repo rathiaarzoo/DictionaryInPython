@@ -1,0 +1,12 @@
+"""
+Create a dictionary in python and take input from the user and
+return the meaning of the word from dictionary
+"""
+d1={"Set":"It is a collection of well defined objects",
+    "Encapsulation":"It is a mechanism of wrapping the data and code acting on the data"
+                    ,"Abstraction":"It is the property by virtue of which only essential details are displayed to the user",
+    "Inheritance":"It is a concept that acquires the properties from one class to other classes",
+    "Polymorphism":"The ability of an object to take many forms"}
+print("Enter the word")
+w=input()
+print(d1[w])
